@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Materiais Complementares</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 2 colunas de tamanhos iguais */
+            gap: 30px; /* Espaço maior entre os quadrados */
+            justify-items: center;
+        }
+
+        .item {
+            border: 1px solid #ddd;
+            padding: 30px;
+            text-align: center;
+            width: 400px; /* Aumentando o tamanho dos quadrados */
+            height: 400px; /* Aumentando a altura */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .item img {
+            width: 300px; /* Aumentando o tamanho da imagem */
+            height: auto;
+        }
+
+        .botao {
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .botao:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Segurança em Foco</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="NormasRegulamentadoras.html">Normas Regulamentadoras</a>
+            <a href="legislação.html">Legislação</a>
+            <a href="Material Complementar.html">Material Complementar</a>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <!-- Conteúdo organizado em grid 2x2 -->
+    <div a href="Material Complementar/NR 32.pdf" class="container">
+        <!-- NR-17 -->
+        <div class="item">
+            <img src="https://prometalepis.com.br/wp-content/uploads/2019/10/Nr_17_-_Ergonomia_no_Trabalho_-_Prometal_EPIs.png" alt="NR-17">
+            <p>Material Complementar da NR-17</p>
+            <a href="Material Complementar/NR 32.pdf" download="NR17.pdf" target="_blank">
+                <button class="botao">Baixar PDF</button>
+            </a>
+        </div>
+
+        <!-- NR-32 -->
+        <div class="item">
+            <img src="https://safetytrab.com.br/wp-content/uploads/2019/03/NR-32-A-norma-regulamentadora-dos-trabalhos-em-sa%C3%BAde-1-1024x512.jpg.webp" alt="NR-32">
+            <p>Material Complementar da NR-32</p>
+            <a href="Material Complementar/nr32.pdf" download="NR32.pdf" target="_blank">
+                <button class="botao">Baixar PDF</button>
+            </a>
+        </div>
+
+        <!-- NR-33 -->
+        <div class="item">
+            <img src="https://prometalepis.com.br/wp-content/uploads/2023/02/Alteracao_na_NR_33_Veja_o_que_mudou_na_seguranca_do_trabalho_no_espaco_confinado_-_Prometal_EPIs.png" alt="NR-33">
+            <p>Material Complementar da NR-33</p>
+            <a href="Material Complementar/NR 33.pdf" target="_blank">
+                <button class="botao">Baixar PDF</button>
+            </a>
+        </div>
+
+        <!-- NR-35 -->
+        <div class="item">
+            <img src="https://ponteaereaseguranca.com.br/wp-content/uploads/Capa_Blog_PonteAere_novembro_1200X720.jpg" alt="NR-35">
+            <p>Material Complementar da NR-35</p>
+            <a href="Material Complementar/NR 35.pdf" download="NR35.pptx" target="_blank">
+                <button class="botao">Baixar PPTX</button>
+            </a>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer style="background-color: #2e7d32; color: #ffffff; text-align: center; padding: 20px;">
+        <p>&copy; Segurança em Foco!</p>
+        <p>
+            <a href="#sobre" style="color: #ffffff;">Sobre Nós</a> |
+            <a href="#contato" style="color: #ffffff;">Contato</a> |
+            <a href="#privacidade" style="color: #ffffff;">Política de Privacidade</a>
+        </p>
+    </footer>
+</body>
+</html>

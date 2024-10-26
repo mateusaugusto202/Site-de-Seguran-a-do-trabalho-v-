@@ -1,0 +1,201 @@
+
+body {
+   background-color: #fffafa;
+   margin: 0;
+   font-family: Arial, sans-serif;
+}
+header {
+   background-color: #165018; /* Verde */
+   color: white;
+   padding: 15px;
+   text-align: center;
+}
+header img{
+padding: -10%;
+}
+nav {
+   margin-top: 5px;
+}
+nav a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   padding: 10px 20px;
+}
+nav a:hover {
+   background-color: #a4c7a710; /* Verde mais escuro */
+}
+#qq{
+   text-align: center;
+   font-size: 15px;
+}
+img{
+margin: auto;
+display: block;
+border-radius: 5px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p{
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h2{
+text-align: justify;
+font-size: 20;
+}
+#imagelink{
+    margin: auto;
+    display: inline;
+}
+
+div.nr{
+    background-color: #c5c5c5;
+    color: #000000;
+    background-color: #a3d778;
+    border-radius: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+
+h3.nr-1{
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+p{
+    margin-left: 20px;
+}
+
+a.dav{
+    font-size: 20px;
+}
+
+div.sais{
+    font-size: 20px;
+    width: 88%;
+    height: 88%;
+    background-color: #9a9a9a;
+}
+p.pp{
+    font-size: 20px;
+    width: 88%;
+    height: 88%;
+    background-color: #ffffff;
+}
+h1.pp{
+    font-size: 20px;
+    width: 88%;
+    height: 88%;
+    background-color: #ffffff;
+}
+p.pd{
+    font-size: 30px;
+}
+
+div.im{
+    max-width: 1200px;
+    background-color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+   
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container {
+    display: flex;           /* Ativa o Flexbox */
+    justify-content: space-between; /* Coloca os elementos nas extremidades (esquerda e direita) */
+    align-items: center;     /* Alinha verticalmente os elementos */
+    width: 100%;             /* Faz a div ocupar toda a largura do container */
+    padding: 10px;           /* Adiciona um pequeno espaçamento interno */
+}
+
+.botao {
+    font-size: 20px;         /* Tamanho da fonte dos botões */
+    padding: 10px 20px;      /* Espaçamento interno dos botões */
+    cursor: pointer;         /* Muda o cursor para o estilo de clique */
+    border-radius: 5px;      /* Bordas arredondadas */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;            /* Cor do texto dos botões */
+    border: none;            /* Remove a borda padrão */
+}
+a.darv{
+    font-size: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Esse é o footer do nosso site */
+footer{
+    margin-top: 10%;
+}
+#foter{
+    text-align: justify;
+    
+}
+#fote{
+    text-align: justify;
+}
+#ft{
+    text-align: justify;
+}
+#f{
+    text-align: justify;
+}
+/* final do codigo do footer*/
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #165018 ; /* Verde escuro */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove bordas */
+    margin: 0; /* Remove margens */
+}
+
+footer p, footer a {
+    margin: 0; /* Remove margens dos parágrafos e links */
+}
+
+footer a {
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 10px; /* Espaçamento horizontal entre os links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
